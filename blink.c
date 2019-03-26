@@ -97,20 +97,3 @@ void blink_count(unsigned int led, unsigned int count)
 			;
 	}
 }
-
-/**
- * 
- * button_click
- * 
- */
- void button_click(unsigned led)
- {
-	 button_init();
-	 while(1)
-	 {
-		 if(READ_BIT(GPIO_BASE(GPIO_PORTA) + GPIOx_IDR_OFFSET, IDRy_BIT(0)))
-		 {
-			 blink(led);
-		 }
-	 }
- }
