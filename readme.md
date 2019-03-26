@@ -80,6 +80,7 @@ HW04
     * AFRH
 
 6. GPIO 參數設定
+
 ![](https://i.imgur.com/hnyBjQf.png)
 ![](https://i.imgur.com/1LCruEp.png)
 
